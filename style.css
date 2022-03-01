@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_boxs ul li{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.input_boxs ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_boxs input{
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#title,
+#author,
+#isbn{
+    margin-top: 15px;
+}
+
+.submit_button{
+    width: 75%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.submit_button:hover{
+    background-color: darkgray;
+    color: white;
+    font-weight: 600;
+}
+
+.categories{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+}
+.book li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    color: red;
+}
+
+#info{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.5%;
+}
+
+hr{
+    opacity: 0.4;
+}
